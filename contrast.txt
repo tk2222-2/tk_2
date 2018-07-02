@@ -1,0 +1,44 @@
+import numpy as np
+import cv2
+
+def gamma_tr(x, gamma):
+    return pow(x / 255, 1/ ((gamma+1)/100)) * 255
+    
+
+cv2.namedWindow('contrast')
+
+cv2.createTrackbar('gamma',
+                   'contrast',
+                   0, 
+                   100,
+                   gamma_tr)
+
+
+cap = cv2.VideoCapture(0)
+cap.set(cv2.CAP_PROP_FRAME_WIDTH,  640)
+cap.set(cv2.CAP_PROP_FRAME_HEIGHT, 480)
+
+
+while(True):
+
+    ret, frame = cap.read()
+    if not ret: continue
+
+
+    v = cv2.getTrackbarPos('gamma',
+                           'contrast')
+    
+    frame2 = gamma_tr(frame, v)
+    
+    ## do something by using v
+
+    cv2.imshow('contrast', frame2)
+    ax5 = fig.add_subplot(gs[1,2])
+    ax5 = rgb_hist(out_rgb_img, ax5, ticks)
+
+    k = cv2.waitKey(1)
+    if k == ord('q') or k == 27:
+        break
+
+cap.release()
+cv2.destroyAllWindows()
