@@ -52,5 +52,5 @@ numpy 1.14.3
 2. 「宿題２のサンプルコード」, <https://bb9.vle.hiroshima-u.ac.jp/webapps/blackboard/content/listContent.jsp?course_id=_5907_1&content_id=_128168_1>
 
 
-<実行の様子>
+  <実行の様子>
 Youtube動画のURL: https://www.youtube.com/channel/UClNhtG4zbLZJyeD9KuHFPbg?view_as=subscribe
