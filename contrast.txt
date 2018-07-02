@@ -27,14 +27,8 @@ while(True):
 
     v = cv2.getTrackbarPos('gamma',
                            'contrast')
-    
     frame2 = gamma_tr(frame, v)
-    
-    ## do something by using v
-
     cv2.imshow('contrast', frame2)
-    ax5 = fig.add_subplot(gs[1,2])
-    ax5 = rgb_hist(out_rgb_img, ax5, ticks)
 
     k = cv2.waitKey(1)
     if k == ord('q') or k == 27:
