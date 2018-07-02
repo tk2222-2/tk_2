@@ -39,10 +39,10 @@
 
 
   <使い方>
-上のバーを動かすことでコントラストが変化する。
-<依存のライブラリとバージョン>
-opencv 3.1.0
-numpy 1.14.3
+  上のバーを動かすことでコントラストが変化する。
+  <依存のライブラリとバージョン>
+  opencv 3.1.0
+  numpy 1.14.3
 
 
   <参考>
@@ -53,5 +53,4 @@ numpy 1.14.3
 
 
 <実行の様子>
-  
   Youtube動画のURL: https://www.youtube.com/channel/UClNhtG4zbLZJyeD9KuHFPbg?view_as=subscribe
