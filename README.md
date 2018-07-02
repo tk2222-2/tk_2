@@ -53,4 +53,4 @@ numpy 1.14.3
 
 
   <実行の様子>
-Youtube動画のURL: https://www.youtube.com/channel/UClNhtG4zbLZJyeD9KuHFPbg?view_as=subscribe
+  Youtube動画のURL: https://www.youtube.com/channel/UClNhtG4zbLZJyeD9KuHFPbg?view_as=subscribe
