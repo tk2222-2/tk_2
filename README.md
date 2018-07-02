@@ -50,6 +50,7 @@
 
 
   <参考>
+  
 1. shuzo kuwako (2015) 【OpenCV】ガンマとシグモイド」, <http://tsukajizo-notes.blogspot.com/2015/11/opencv.html>
    4~5行目の関数に引用。
 
